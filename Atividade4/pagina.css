@@ -1,0 +1,53 @@
+body {
+	margin:0px;
+	background-image: url("https://www.circuitodasaguaspaulista.sp.gov.br/up/img/1515762602.jpg"); 
+	font-family:"Trebuchet MS", Tahoma, Arial, Verdana;
+	font-size:12px;
+	color:#000;
+}
+
+.todo {
+    width: 750px;
+	border: 1px solid black;
+	margin:0 auto; /* topo 0 direita automatica */
+	background-color: white;
+}
+
+.topo {
+ 	width: 746px;
+	height: 50px;
+	border: 2px solid black;
+    background-color: blue;
+}
+
+.meio {
+   	width: 750px;
+	min-height: 400px;
+	background-color: white;
+}
+
+
+
+.menu {
+	width: 150px;
+	height: 400px;
+}
+
+
+
+
+.miolo {
+	width: 700px;
+	min-height: 400px;
+    font-family: "courier";
+    font-size:15px;
+}
+
+.item_miolo {
+	width: 745px;
+	height: 400px;
+	text-align: left;
+	background-color: white;
+	margin: 2px 5px 4px 5px;
+}
+
