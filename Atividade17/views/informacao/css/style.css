@@ -1,0 +1,44 @@
+html{
+    background: blue;
+}
+
+.caixa_principal{
+    width: 1000px;
+    height: 1550px;
+    background-color: black;
+    padding: 40px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.icone{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    border-radius: 50%
+}
+
+h1{
+    font-weight: 100;
+    letter-spacing: 6;
+    font-size: 40px;
+}
+p{
+    letter-spacing: 1;
+    font-weight: 100;
+}
+.quebra_de_linha{
+    width: 140px;
+    margin: 0 auto;
+    border-top: 1px solid white;
+}
+
+.social-icons{
+    font-size: 20px;
+    color: azure;
+}
