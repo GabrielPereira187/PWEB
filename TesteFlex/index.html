@@ -6,32 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/shoe.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gallery.theme.css">
+    <link rel="stylesheet" href="css/gallery.min.css">
     
     <title>Teste Flex</title>
 </head>
 <body>
     <header>
         <div class="logo">
-            
+            <img src="img/shoe.ico">
         </div>
         <nav>
             <ul class="menu">
-                <a href="">
-                    <li>Quem somos</li>
-                </a>
-                <a href="">
-                    <li>Sobre</li>
-                </a>
-                <a href="">
+                <a href="#produtos">
                     <li>Produtos</li>
+                </a>
+                <a href="#vantagens">
+                    <li>Vantagens</li>
+                </a>
+                <a href="#criador">
+                    <li>Criador</li>
                 </a>
             </ul>
         </nav>
     </header>
+    <h1 id="produtos">Produtos disponíveis</h1>
     <section class="flex-container">
         <div class="tenis">
             <div class="tenis-foto">
-                <img src="img/air1.jpg" alt="">
+                <div class="gallery autoplay items-2">
+                    <div id="item-1" class="control-operator"></div>
+                    <div id="item-2" class="control-operator"></div>
+                  
+                    <figure class="item">
+                      <img src="img/air1.jpg" alt="">
+                    </figure>
+                  
+                    <figure class="item">
+                      <img src="img/airforce235.jpg" alt="">
+                    </figure>
+                  
+                </div>
             </div>
             <div class="tenis-texto">
                 <h1>Nike Air Force 1</h1>
@@ -45,7 +60,19 @@
         <section class="flex-container">
             <div class="tenis parente">
                 <div class="tenis-foto">
-                    <img src="img/nmd2.jpg" alt="">
+                    <div class="gallery autoplay items-2">
+                        <div id="item-1" class="control-operator"></div>
+                        <div id="item-2" class="control-operator"></div>
+                      
+                        <figure class="item">
+                          <img src="img/nmd.jpg" alt="">
+                        </figure>
+                      
+                        <figure class="item">
+                          <img src="img/nmd2.jpg" alt="">
+                        </figure>
+                      
+                    </div>
                 </div>
                 <div class="tenis-texto">
                     <h1>Adidas Tubular</h1>
@@ -59,7 +86,19 @@
     <section class="flex-container">
         <div class="tenis">
             <div class="tenis-foto">
-                <img src="img/superstar.jpg" alt="">
+                <div class="gallery autoplay items-2">
+                    <div id="item-1" class="control-operator"></div>
+                    <div id="item-2" class="control-operator"></div>
+                  
+                    <figure class="item">
+                      <img src="img/superstar.jpg" alt="">
+                    </figure>
+                  
+                    <figure class="item">
+                      <img src="img/tenis-superstar.jpg" alt="">
+                    </figure>
+                  
+                </div>
             </div>
             <div class="tenis-texto">
                 <h1>Adidas Superstar</h1>
@@ -68,6 +107,34 @@
             </div>
         </div>
     </section>
+
+    <div class="flex-container-externo" id="vantagens">
+        <h1>Vantagens de comprar conosco!</h1>
+        <section class="flex-container">
+            
+            <div class="servicos">
+                <div class="itens">
+                    <img src="img/express-delivery.png" alt="">
+                    <p>Uma das entregas mais rápidas do mercado,entregando em até 3 dias úteis!</p>
+                </div>
+                <div class="itens">
+                    <img src="img/customer-service.png" alt="">
+                    <p>Atendimento especial, trabalhamos no modelo 24/7!</p>
+                </div>
+
+
+
+
+
+            </div>
+
+        </section>
+    </div>
+
+    <footer id="criador">
+        <h1>Criado por <a href="https://github.com/GabrielPereira187" target="_blank"> Gabriel de Barros Pereira</a></h1>
+        <p>&copy; 2021 CSS Flexbox com Carrosel</p>
+    </footer>
 
 
     
